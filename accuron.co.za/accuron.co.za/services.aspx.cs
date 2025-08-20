@@ -1,6 +1,6 @@
 ﻿using System;
 
-public partial class uc_header : System.Web.UI.UserControl
+public partial class services : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {

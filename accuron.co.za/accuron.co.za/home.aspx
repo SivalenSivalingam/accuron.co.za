@@ -2,16 +2,10 @@
 
 <asp:Content ID="Head" ContentPlaceHolderID="Head" Runat="Server">
 </asp:Content>
-<asp:Content ID="Body" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <main class="main">
-
-    <!-- Hero Section -->
+<asp:Content ID="Body" ContentPlaceHolderID="Body" Runat="Server">
     <section id="hero" class="hero section">
-
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-
         <div class="row align-items-center">
-
           <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="200">
             <div class="hero-content">
               <h1 class="hero-title">Creating Digital Experiences That Matter</h1>
@@ -66,116 +60,9 @@
 
       </div>
 
-    </section><!-- /Hero Section -->
+    </section>
 
-    <!-- About Section -->
-    <section id="about" class="about section">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-5">
-
-          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
-            <div class="content-wrapper">
-              <div class="section-header">
-                <span class="section-badge">ABOUT OUR COMPANY</span>
-                <h2>Tempor incididunt ut labore et dolore magna</h2>
-              </div>
-
-              <p class="lead-text">Unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
-
-              <p class="description-text">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
-
-              <div class="stats-grid">
-                <div class="stat-item">
-                  <div class="stat-number">250+</div>
-                  <div class="stat-label">Projects Completed</div>
-                </div>
-                <div class="stat-item">
-                  <div class="stat-number">98%</div>
-                  <div class="stat-label">Client Satisfaction</div>
-                </div>
-                <div class="stat-item">
-                  <div class="stat-number">24/7</div>
-                  <div class="stat-label">Support Available</div>
-                </div>
-                <div class="stat-item">
-                  <div class="stat-number">12+</div>
-                  <div class="stat-label">Years Experience</div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
-            <div class="visual-section">
-              <div class="main-image-container">
-                <img src="assets/img/about/about-8.webp" alt="Professional team collaboration" class="img-fluid main-visual">
-                <div class="overlay-card">
-                  <div class="card-content">
-                    <h4>Quality First</h4>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
-                    <div class="card-icon">
-                      <i class="bi bi-award-fill"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="secondary-images">
-                <div class="row g-3">
-                  <div class="col-6">
-                    <img src="assets/img/about/about-11.webp" alt="Team meeting" class="img-fluid secondary-img">
-                  </div>
-                  <div class="col-6">
-                    <img src="assets/img/about/about-5.webp" alt="Office workspace" class="img-fluid secondary-img">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="row mt-5">
-          <div class="col-12" data-aos="fade-up" data-aos-delay="400">
-            <div class="features-section">
-              <div class="row gy-4">
-                <div class="col-md-4">
-                  <div class="feature-box">
-                    <div class="feature-icon">
-                      <i class="bi bi-shield-check"></i>
-                    </div>
-                    <h5>Trusted Security</h5>
-                    <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae.</p>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="feature-box">
-                    <div class="feature-icon">
-                      <i class="bi bi-lightning-charge"></i>
-                    </div>
-                    <h5>Fast Performance</h5>
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur.</p>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="feature-box">
-                    <div class="feature-icon">
-                      <i class="bi bi-headset"></i>
-                    </div>
-                    <h5>Expert Support</h5>
-                    <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet consectetur adipisci velit.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /About Section -->
 
     <!-- Features Section -->
     <section id="features" class="features section">
@@ -1320,93 +1207,5 @@
 
     </section><!-- /Faq Section -->
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <span class="description-title">Contact</span>
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row g-5">
-          <div class="col-lg-6">
-            <div class="content" data-aos="fade-up" data-aos-delay="200">
-              <div class="section-category mb-3">Contact US</div>
-              <h2 class="display-5 mb-4">Nemo enim ipsam voluptatem quia voluptas aspernatur</h2>
-              <p class="lead mb-4">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</p>
-
-              <div class="contact-info mt-5">
-                <div class="info-item d-flex mb-3" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bi bi-envelope-at me-3"></i>
-                  <span>info@example.com</span>
-                </div>
-
-                <div class="info-item d-flex mb-3" data-aos="fade-up" data-aos-delay="400">
-                  <i class="bi bi-telephone me-3"></i>
-                  <span>+1 5589 55488 558</span>
-                </div>
-
-                <div class="info-item d-flex mb-4" data-aos="fade-up" data-aos-delay="500">
-                  <i class="bi bi-geo-alt me-3"></i>
-                  <span>A108 Adam Street, New York, NY 535022</span>
-                </div>
-
-                <a href="#" class="map-link d-inline-flex align-items-center" data-aos="fade-up" data-aos-delay="600">
-                  Open Map
-                  <i class="bi bi-arrow-right ms-2"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6">
-            <div class="contact-form card" data-aos="fade-up" data-aos-delay="300">
-              <div class="card-body p-4 p-lg-5">
-
-                <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="600">
-                  <div class="row gy-4">
-
-                    <div class="col-12">
-                      <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                    </div>
-
-                    <div class="col-12 ">
-                      <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                    </div>
-
-                    <div class="col-12">
-                      <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                    </div>
-
-                    <div class="col-12">
-                      <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                    </div>
-
-                    <div class="col-12 text-center">
-                      <div class="loading">Loading</div>
-                      <div class="error-message"></div>
-                      <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                      <button type="submit" class="btn btn-submit w-100">Submit Message</button>
-                    </div>
-
-                  </div>
-                </form>
-
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section><!-- /Contact Section -->
-
-  </main>
 </asp:Content>
 

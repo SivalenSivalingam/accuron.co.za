@@ -1,4 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="masterpage.master.cs" Inherits="masterpage" %>
+
 <%@ Register Src="~/uc/header.ascx" TagPrefix="uc1" TagName="header" %>
 <%@ Register Src="~/uc/footer.ascx" TagPrefix="uc1" TagName="footer" %>
 
@@ -7,7 +8,7 @@
 <head runat="server">
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Index - Landify Bootstrap Template</title>
+    <title>Accuron</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <link href="assets/img/favicon.png" rel="icon">
@@ -28,8 +29,10 @@
     <form id="Form" runat="server">
         <uc1:header runat="server" ID="header" />
         <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
+            <main class="main">
+                <asp:ContentPlaceHolder ID="Body" runat="server">
+                </asp:ContentPlaceHolder>
+            </main>
         </div>
         <uc1:footer runat="server" ID="footer" />
         <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
