@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.35116.124
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "accuron.co.za", "accuron.co.za\", "{EE888C0B-6648-4412-8BE3-C306C89D1481}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50387"
+		Debug.AspNetCompiler.PhysicalPath = "accuron.co.za\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50387\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50387"
+		Release.AspNetCompiler.PhysicalPath = "accuron.co.za\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50387\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50387"
+		SlnRelativePath = "accuron.co.za\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE888C0B-6648-4412-8BE3-C306C89D1481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE888C0B-6648-4412-8BE3-C306C89D1481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73CC1D48-5C69-4533-8054-608EC0F130AE}
+	EndGlobalSection
+EndGlobal
